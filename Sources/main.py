@@ -4,13 +4,14 @@ import cv2
 from line import Line
 from scipy import ndimage
 import numpy as np
-import filtros as flt
+import filters as flt
 from definitions import *
 
 images = {}
 left_line = Line()
 right_line = Line()
 
+# Standard size for images
 std_x, std_y = (1024, 1024)
 
 # Create a trapezoid in where we search for lanes

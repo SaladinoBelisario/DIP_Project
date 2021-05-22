@@ -7,8 +7,8 @@ lanes in an arbitrary image. I know machine learning its
 more precise, but takes a lot of time in order to produce 
 results, moreover, needs big datasets.
 
-<!--For a more detailed explanation of how the algorithm it's implemented you can 
-visit []() -->
+For a more detailed explanation of how the algorithm it's implemented you can 
+visit [Lane detection with Computer Vision in Python](https://javarustacean.wordpress.com/2021/05/22/lane-detection-with-computer-vision-in-python/)
 
 
 ## Dependencies:
@@ -42,7 +42,7 @@ lanes we need to perform a Bird Eye transformation, see [2].
 > Gaussian Filtered Image
 
 ![Perspective Transformation](Img/blurred_perspective.PNG)
-> Bird Eye perspective transformation
+> Bird's Eye perspective transformation
 
 **Laplace Filter**
 We apply a Laplacian filter to find the vertical lines.
